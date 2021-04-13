@@ -15,11 +15,10 @@ body {
 
 /*-----------Header-----------------*/
 
-header{
+header {
   width: 375px;
- 
   margin: 24px auto 20px;
-  padding: 0px 19px ;
+  padding: 0px 19px;
 
   display: flex;
   justify-content: space-between;
@@ -28,7 +27,7 @@ header{
   border: 1px solid red;
 }
 
-.dogUser{
+.dogUser {
   width: 96px;
   display: flex;
   flex-direction: column;
@@ -38,22 +37,22 @@ header{
 
 }
 
-.dogUser p{
-  
+.dogUser p {
 
-font-weight: normal;
-font-size: 12px;
-margin-bottom: 14px;
+
+  font-weight: normal;
+  font-size: 12px;
+  margin-bottom: 14px;
 }
 
-.dogUser h1{
-  
+.dogUser h1 {
+
   font-weight: bold;
   font-size: 30px;
 }
 
 
-header img{
+header img {
   width: 58px;
   height: 61px;
   display: inline-block;
@@ -61,37 +60,135 @@ header img{
 
 /*-----------aboutDog-----------------*/
 
-.aboutDog{
+.aboutDog {
 
-  padding: 0px 19px; 
+  padding: 0px 19px;
   border: 1px solid rgb(0, 255, 42);
   width: 375px;
   margin: 0 auto;
 }
 
-.itens{
+.itens {
   width: 338px;
   height: 76px;
-  
   background-color: #F5F5F5;
   border: none;
   border-radius: 10px;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.item{
+.item {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.item p{
+.item p {
   font-weight: normal;
-font-size: 10px;
-margin-bottom: 9px;
+  font-size: 10px;
+  margin-bottom: 9px;
 }
 
-/*-----------Header-----------------*/
+/*-----------informationDog-----------------*/
+.informationDog {
+  width: 375px;
+  padding: 0px 19px;
+  border: 1px solid rgb(0, 255, 42);
+  margin: 35px auto 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards img {
+  margin-bottom: 12px;
+}
+
+
+
+.card1,
+.card2 {
+  background: #FF9118;
+  width: 140px;
+  height: 145px;
+  margin-bottom: 47px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+
+  cursor: pointer;
+
+}
+
+.card1:hover{
+  transition: 0.8s;
+  background: #ff8400;
+  
+}
+
+.card2 {
+  background: #313131;
+}
+
+/*-----------Menu-----------------*/
+
+.menu {
+  width: 375px;
+  margin: 26px auto 13px;
+  padding: 0px 19px;
+  border: 1px solid rgb(0, 255, 42);
+
+}
+
+.menuContainer {
+  width: 338px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeMenu {
+  background: #797979;
+  border-radius: 3px;
+  width: 84px;
+  height: 26px;
+
+  display: flex;
+  align-items: center;
+}
+
+.homeMenu img {
+  margin: 0px 10px 0px 6px;
+}
+
+.bell{
+  position: relative;
+  right: 30px;
+}
+
+.homeMenu p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+
+  color: #FFFFFF;
+}
+
+
+/*-----------END-----------------*/
