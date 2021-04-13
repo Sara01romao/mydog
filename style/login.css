@@ -1,0 +1,172 @@
+/*
+width: 375px;
+height: 667px;
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+header {
+  width: 162px;
+  height: 47px;
+  margin: 34px auto;
+}
+
+.loginUser {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+form {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+}
+
+.userInput {
+  width: 250px;
+  margin-bottom: 21px;
+  border: none;
+  border-bottom: 1px solid #C5C5C5;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+
+
+}
+
+
+form input {
+  width: 100%;
+  height: 15px;
+  border: none;
+  margin-left: 7px;
+
+}
+
+.passUser {
+  margin-right: 7px;
+}
+
+input::placeholder {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15, 23px;
+  letter-spacing: 0.3em;
+  color: #7A7A7A;
+
+}
+
+input:focus {
+  outline-style: none;
+
+}
+
+form button {
+  width: 193px;
+  height: 31px;
+
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFFFF;
+
+  background: #FF9118;
+  border: none;
+  margin: 19px auto;
+  border-radius: 50px;
+  cursor: pointer;
+
+}
+
+form button:hover {
+  background: #000000;
+  transition: 0.8s;
+  font-size: 16px;
+}
+
+button:focus {
+  outline-style: none;
+  box-shadow: 0 0 3pt 2pt  #FF9118;
+}
+.signUp {
+  display: flex;
+
+}
+
+.signUp p,
+a {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.signUp a {
+  color: #FF9118;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.signUp a:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.8s;
+  
+}
+
+/**/
+
+.endLogin {
+  margin: 0 auto;
+  background-image: url('../img/03 bgLogin.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  width: 375px;
+  height: 346px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9px;
+
+
+
+
+}
+
+.endLogin img {
+  display: inline-block;
+}
+
+.icon1 {
+  position: relative;
+  left: 35px;
+  bottom: 165px;
+}
+
+.icon2 {
+  position: relative;
+  right: 25px;
+
+}
+
+.dog {
+
+  position: relative;
+  left: 15px;
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/*-----------Header-----------------*/
+
+header{
+  width: 375px;
+ 
+  margin: 24px auto 20px;
+  padding: 0px 19px ;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid red;
+}
+
+.dogUser{
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid rgb(0, 255, 42);
+
+}
+
+.dogUser p{
+  
+
+font-weight: normal;
+font-size: 12px;
+margin-bottom: 14px;
+}
+
+.dogUser h1{
+  
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+header img{
+  width: 58px;
+  height: 61px;
+  display: inline-block;
+}
+
+/*-----------aboutDog-----------------*/
+
+.aboutDog{
+
+  padding: 0px 19px; 
+  border: 1px solid rgb(0, 255, 42);
+  width: 375px;
+  margin: 0 auto;
+}
+
+.itens{
+  width: 338px;
+  height: 76px;
+  
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item p{
+  font-weight: normal;
+font-size: 10px;
+margin-bottom: 9px;
+}
+
+/*-----------Header-----------------*/
