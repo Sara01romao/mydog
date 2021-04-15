@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+/*-----------header-----------------*/
+
+header {
+  width: 375px;
+  margin: 22px auto 20px;
+  padding: 0px 19px;
+
+  display: flex;
+  align-items: center;
+
+  border: 1px solid red;
+
+
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 13px;
+}
+
+header img {
+  width: 19px;
+  height: 19px;
+}
+
+/*---------photoUser-----------------*/
+.photoUser {
+  width: 197px;
+  height: 195px;
+  margin: 22px auto 15px;
+}
+
+
+/*-----------aboutDog-----------------*/
+
+.aboutDog {
+
+  padding: 0px 19px;
+
+  width: 375px;
+  margin: 0 auto;
+}
+
+.itens {
+  width: 338px;
+  height: 76px;
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item p {
+  font-weight: normal;
+  font-size: 10px;
+  margin-bottom: 9px;
+}
+
+/*-----------detailed-----------------*/
+
+.detailed {
+  width: 375px;
+  margin: 22px auto 20px;
+  padding: 0px 19px;
+
+
+
+  border: 1px solid red;
+}
+
+.detailed table {
+  padding: 17px 10px 22px;
+  width: 338px;
+  height: 236px;
+  border-radius: 10px;
+
+  background: #F5F5F5;
+  border: 1px solid red;
+}
+
+
+
+td {
+  text-align: start;
+  border: 1px solid red;
+  width: 129px;
+
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+
+
+}
+
+
+/*-----------END-----------------*/
