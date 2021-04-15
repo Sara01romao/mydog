@@ -176,16 +176,28 @@ header img {
 .homeMenu {
   background: #797979;
   border-radius: 3px;
+
+
+}
+
+.homeMenu a{
+  border-radius: 3px;
   width: 84px;
   height: 26px;
-
   display: flex;
   align-items: center;
+  text-decoration: none;
+}
+
+.homeMenu a:hover{
+  background: #3d3c3c;
 }
 
 .homeMenu img {
   margin: 0px 10px 0px 6px;
 }
+
+
 
 .bell {
   position: relative;
