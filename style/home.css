@@ -24,7 +24,7 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  border: 1px solid red;
+
 }
 
 .dogUser {
@@ -33,7 +33,7 @@ header {
   flex-direction: column;
   align-items: center;
 
-  border: 1px solid rgb(0, 255, 42);
+
 
 }
 
@@ -63,7 +63,7 @@ header img {
 .aboutDog {
 
   padding: 0px 19px;
-  border: 1px solid rgb(0, 255, 42);
+
   width: 375px;
   margin: 0 auto;
 }
@@ -97,7 +97,7 @@ header img {
 .informationDog {
   width: 375px;
   padding: 0px 19px;
-  border: 1px solid rgb(0, 255, 42);
+
   margin: 35px auto 0;
 }
 
@@ -122,13 +122,13 @@ header img {
   margin-bottom: 47px;
   border-radius: 10px;
 
-  
+
 
 }
 
 .cards a {
   text-decoration: none;
-  border: 1px solid red;
+
   width: 140px;
   height: 145px;
 
@@ -145,7 +145,7 @@ header img {
   cursor: pointer;
 }
 
-.cards a:hover{
+.cards a:hover {
   transition: 0.8s;
   background: #ff5100de;
   box-shadow: 3px 2px 3px rgba(211, 56, 9, 0.452);
@@ -162,7 +162,7 @@ header img {
   width: 375px;
   margin: 26px auto 13px;
   padding: 0px 19px;
-  border: 1px solid rgb(0, 255, 42);
+
 
 }
 
@@ -180,7 +180,7 @@ header img {
 
 }
 
-.homeMenu a{
+.homeMenu a {
   border-radius: 3px;
   width: 84px;
   height: 26px;
@@ -189,7 +189,7 @@ header img {
   text-decoration: none;
 }
 
-.homeMenu a:hover{
+.homeMenu a:hover {
   background: #3d3c3c;
 }
 
