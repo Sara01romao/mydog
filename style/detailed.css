@@ -24,7 +24,6 @@ header {
   display: flex;
   align-items: center;
 
-  border: 1px solid red;
 
 
 }
@@ -87,34 +86,73 @@ header img {
 
 .detailed {
   width: 375px;
-  margin: 22px auto 20px;
+  margin: 16px auto 20px;
   padding: 0px 19px;
-
-
-
-  border: 1px solid red;
 }
 
 .detailed table {
-  padding: 17px 10px 22px;
+  padding: 14px 10px 22px;
   width: 338px;
   height: 236px;
   border-radius: 10px;
 
   background: #F5F5F5;
-  border: 1px solid red;
+
 }
 
 
 
 td {
   text-align: start;
-  border: 1px solid red;
+
   width: 129px;
 
   font-weight: normal;
   font-size: 13px;
   line-height: 15px;
+
+  padding: 5px 0px;
+
+
+}
+
+.info {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  letter-spacing: 0.075em;
+
+  color: #FF9118;
+}
+
+.adress {
+  width: 117px;
+  height: 45px;
+  padding-left: 20px;
+
+}
+
+/*-----------Menu-----------------*/
+
+.menu {
+  width: 375px;
+  margin: 0px auto 13px;
+  padding: 0px 19px;
+
+
+}
+
+.menuContainer {
+  width: 338px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeMenu {
+  background: #797979;
+  border-radius: 3px;
 
 
 }
