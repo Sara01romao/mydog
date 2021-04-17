@@ -17,7 +17,7 @@ body {
 
 }
 
-
+/*-----------header-----------------*/
 
 header {
   width: 162px;
@@ -25,6 +25,7 @@ header {
   margin: 34px auto;
 }
 
+/*-----------loginUser-----------------*/
 .loginUser {
 
   display: flex;
@@ -83,16 +84,20 @@ form button {
   width: 193px;
   height: 31px;
 
-  font-weight: bold;
-  font-size: 15px;
-  color: #FFFFFF;
-
   background: #FF9118;
   border: none;
   margin: 19px auto;
   border-radius: 50px;
   cursor: pointer;
 
+}
+
+form button a {
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
 }
 
 form button:hover {
@@ -103,8 +108,9 @@ form button:hover {
 
 button:focus {
   outline-style: none;
-  box-shadow: 0 0 3pt 2pt  #FF9118;
+  box-shadow: 0 0 3pt 2pt #FF9118;
 }
+
 .signUp {
   display: flex;
 
@@ -125,10 +131,10 @@ a {
 .signUp a:hover {
   color: rgb(0, 0, 0);
   transition: 0.8s;
-  
+
 }
 
-/**/
+/*------endLogin------------*/
 
 .endLogin {
   margin: 0 auto;
@@ -143,9 +149,6 @@ a {
   align-items: center;
   justify-content: center;
   margin-top: 9px;
-
-
-
 
 }
 
@@ -170,3 +173,5 @@ a {
   position: relative;
   left: 15px;
 }
+
+/*------end------------*/
